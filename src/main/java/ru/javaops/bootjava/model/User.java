@@ -10,14 +10,9 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-
-    private String email;
-
     private String firstName;
-
     private String lastName;
-
     private String password;
-
+    private String email;
     private Set<Role> roles;
 }
