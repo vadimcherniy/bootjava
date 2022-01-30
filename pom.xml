@@ -12,8 +12,7 @@
     <artifactId>restaurant-voting</artifactId>
     <version>1.0</version>
     <name>restaurant-voting</name>
-    <description>Spring Boot 2.x HATEOAS application (BootJava)</description>
-    <url>https://javaops.ru/view/bootjava</url>
+    <description>Spring Boot 2.x HATEOAS application</description>
 
     <properties>
         <java.version>15</java.version>
