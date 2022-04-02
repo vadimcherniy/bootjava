@@ -8,10 +8,10 @@
         <version>2.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ru.javaops.bootjava</groupId>
-    <artifactId>restaurant-voting</artifactId>
+    <groupId>ua.bootjava</groupId>
+    <artifactId>boot-java</artifactId>
     <version>1.0</version>
-    <name>restaurant-voting</name>
+    <name>boot-java</name>
     <description>Spring Boot 2.x HATEOAS application</description>
 
     <properties>
