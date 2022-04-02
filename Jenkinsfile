@@ -7,10 +7,13 @@ pipeline {
       }
     }
     stage('build') {
-      steps {
-        sh 'mvn --version'
-      }
+       steps {
+            container('maven') {
+                script {
+                    sh "mvn --version"
+                }
+            }
+       }
     }
-
   }
 }
