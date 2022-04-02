@@ -4,7 +4,7 @@ pipeline {
     maven 'M3'
   }
   stages {
-    stage('gitCheckout') {
+    stage('checkout') {
       steps {
         git(url: 'https://github.com/vadimcherniy/bootjava.git', branch: 'master')
       }
@@ -12,7 +12,7 @@ pipeline {
     stage('build') {
        steps {
             script {
-                    sh "mvn --version"
+                    sh "mvn clean package"
             }
        }
     }
