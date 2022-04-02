@@ -8,10 +8,8 @@ pipeline {
     }
     stage('build') {
        steps {
-            container('maven') {
-                script {
+            script {
                     sh "mvn --version"
-                }
             }
        }
     }
