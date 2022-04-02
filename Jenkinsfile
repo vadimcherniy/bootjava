@@ -12,6 +12,7 @@ pipeline {
         git(url: 'https://github.com/vadimcherniy/bootjava.git', branch: 'master')
       }
     }
+
     stage('build') {
        steps {
             script {
