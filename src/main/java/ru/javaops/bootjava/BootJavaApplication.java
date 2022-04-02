@@ -9,11 +9,11 @@ import ru.javaops.bootjava.repository.UserRepository;
 
 @SpringBootApplication
 @AllArgsConstructor
-public class RestaurantVotingApplication implements ApplicationRunner {
+public class BootJavaApplication implements ApplicationRunner {
     private final UserRepository userRepository;
 
     public static void main(String[] args) {
-        SpringApplication.run(RestaurantVotingApplication.class, args);
+        SpringApplication.run(BootJavaApplication.class, args);
     }
 
     @Override
