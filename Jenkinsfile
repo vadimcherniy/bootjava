@@ -9,12 +9,9 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'mvn clean'
+        sh 'java --version'
       }
     }
 
-  }
-  environment {
-    maven = 'M3'
   }
 }
