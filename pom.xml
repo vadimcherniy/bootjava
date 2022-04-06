@@ -15,7 +15,7 @@
     <description>Spring Boot 2.x HATEOAS application</description>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>11</java.version>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
     </properties>
 
