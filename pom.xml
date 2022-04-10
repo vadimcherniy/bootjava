@@ -8,11 +8,12 @@
         <version>2.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ua.bootjava</groupId>
+    <groupId>com.bootjava</groupId>
     <artifactId>boot-java</artifactId>
     <version>1.0</version>
     <name>boot-java</name>
     <description>Spring Boot 2.x HATEOAS application</description>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>11</java.version>
