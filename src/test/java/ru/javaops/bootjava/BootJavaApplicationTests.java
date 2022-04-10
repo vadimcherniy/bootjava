@@ -7,4 +7,5 @@ class BootJavaApplicationTests {
     @Test
     void contextLoads() {
     }
+
 }
