@@ -13,7 +13,6 @@
     <version>1.0</version>
     <name>boot-java</name>
     <description>Spring Boot 2.x HATEOAS application</description>
-    <packaging>war</packaging>
 
     <properties>
         <java.version>11</java.version>
